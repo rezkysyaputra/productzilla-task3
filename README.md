@@ -5,7 +5,7 @@
 3. helpers: menyimpan fungsi-fungsi yang sudah di pisahkan
    
 ## Cara menggunakan:
-1. Buka terminal
+1. Buka terminal bash
 2. clone repository: git clone https://github.com/rezkysyaputra/productzilla-task3.git
 3. npm install
 4. running untuk enkripsi file: ts-node src/index.ts encrypt ./test.txt myPassword
