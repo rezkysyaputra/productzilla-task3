@@ -29,7 +29,7 @@ async function decryptFile(filePath: string, password: string) {
       `File '${filePath}' berhasil didekripsi menjadi '${decryptedFilePath}'`
     );
   } catch (error: Error | any) {
-    logError(`Error ketika mendekripsi file: ${error.message}`);
+    logError(`Error saat dekripsi: File ${filePath} tidak ditemukan!`);
   }
 }
 

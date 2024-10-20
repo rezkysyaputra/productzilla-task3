@@ -29,7 +29,7 @@ async function encryptFile(filePath: string, password: string) {
       `File '${filePath}' berhasil dienkripsi menjadi '${encryptedFilePath}'`
     );
   } catch (error: Error | any) {
-    logError(`Error ketika mengenkripsi file: ${error.message}`);
+    logError(`Error saat enkripsi: File ${filePath} tidak ditemukan!`);
   }
 }
 
